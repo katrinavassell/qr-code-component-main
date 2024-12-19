@@ -1,54 +1,46 @@
+/* Import the Outfit font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: hsl(212, 45%, 89%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  /* Main QR Code Container */
-  .qr-code-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 320px;
-  }
-  
-  /* QR Code Image */
-  .qr-code-image {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
-  /* Headline */
-  h1 {
-    font-size: 1.5rem;
-    color: hsl(218, 44%, 22%);
-    margin-bottom: 10px;
-  }
-  
-  /* Paragraph */
-  p {
-    font-size: 1rem;
-    color: hsl(218, 22%, 55%);
-  }
-  
-  /* Attribution */
-  .attribution {
-    font-size: 0.8rem;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
-  }
-  
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main QR Code Container */
+.qr-code-container {
+  background-color: hsl(0, 0%, 100%); /* White */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+/* QR Code Image */
+.qr-code-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Headline */
+h1 {
+  font-size: 1.5rem;
+  color: hsl(218, 44%, 22%); /* Slate 900 */
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1rem;
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+  font-weight: 400;
