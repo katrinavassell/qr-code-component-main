@@ -2,23 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive design -->
+  <meta name="description" content="QR code component for Frontend Mentor project.">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | QR code component</title>
+  <title>Frontend Mentor | QR Code Component</title>
 </head>
 <body>
-<div class="container">
-  <div class="main-element">
-  <img src="images/image-qr-code.png" alt="QR code image"/>
-  <div class="title"><h1>Improve your front-end skills by building projects</h1></div>
-  <div class="description"><p>Scan the QR code to visit Frontend Mentor and take your coding skills to <br>the next level</p></div>
-  </div>
-</div>
+  <main class="container">
+    <article class="card">
+      <img src="images/image-qr-code.png" alt="QR code linking to Frontend Mentor" class="qr-image" aria-label="Frontend Mentor QR Code" />
+      <header>
+        <h1>Improve your front-end skills by building projects</h1>
+      </header>
+      <section class="description">
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level! </p>
+      </section>
+      <section class="description">
+        <p>By Katrina Laszlo</p>
+      </section>
+    </article>
+  </main>
 </body>
 </html>
