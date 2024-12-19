@@ -1,50 +1,54 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Set body styles */
+/* General Styles */
 body {
-    font-family: 'Outfit', sans-serif; /* Use the font from the style guide */
-    background-color: hsl(212, 45%, 89%); /* Light blue background from the style guide */
+    font-family: Arial, sans-serif;
+    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full screen height */
+    height: 100vh;
     margin: 0;
-}
-
-.qr-code-container {
-    background-color: white; /* Card background color */
-    border-radius: 15px; /* Rounded corners */
-    padding: 20px; /* Space inside the container */
-    text-align: center; /* Center text */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    max-width: 320px; /* Limit the width */
-}
-.qr-code-image {
-    width: 100%; /* Make the image fill the container's width */
-    border-radius: 10px; /* Slight rounding on the image corners */
-}
-h1 {
-    color: hsl(218, 44%, 22%); /* Dark blue from the style guide */
-    font-size: 1.5rem; /* Adjust font size */
-    margin: 15px 0; /* Add space around the heading */
-}
-
-p {
-    color: hsl(220, 15%, 55%); /* Grayish blue for text */
-    font-size: 1rem; /* Standard text size */
-    line-height: 1.6; /* Space between lines for readability */
-}
-@media (max-width: 600px) {
-    .qr-code-container {
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 1.2rem;
-    }
-}
+  }
+  
+  /* Main QR Code Container */
+  .qr-code-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+  }
+  
+  /* QR Code Image */
+  .qr-code-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Headline */
+  h1 {
+    font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph */
+  p {
+    font-size: 1rem;
+    color: hsl(218, 22%, 55%);
+  }
+  
+  /* Attribution */
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  
